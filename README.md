@@ -33,7 +33,7 @@ Det er disse koordinatene vi bruker for å referere til felter på brettet. Felt
 
 For å finne ut hvilken brikke som står på A1, kan vi skrive `piece = node.piece_at(chess.A1)` (og `chess.A1` kan skrives `get_attr(chess, "A1")`). Da vil `piece` inneholde brikken dersom det står en brikke der, ellers `None`. Hvite brikker har store bokstaver, mens svarte brikker har små. En hvit bonde vil være `P`, mens en svart konge vil være `k`.
 
-Bonde: P, Løper: B, Springer: N, Dronning: Q, Konge: K.
+Bonde: P, Løper: B, Springer: N, Tårn: R, Dronning: Q, Konge: K.
 
 `fields`-variabelen i `evaluation.py` er en liste med alle feltene på brettet: `['A1', 'A2', ..., 'H8']`. Så ved å loope gjennom denne listen kan man legge til eller trekke fra en score basert på hvilken brikke som står på feltet.
 
