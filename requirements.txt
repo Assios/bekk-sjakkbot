@@ -1,3 +1,2 @@
 python-chess
-multiprocessing
 requests
